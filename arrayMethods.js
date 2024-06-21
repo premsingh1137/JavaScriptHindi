@@ -36,6 +36,10 @@
 // const citrus = fruits.slice(1, 3); // ['banana', 'orange']
 //  console.table(citrus); 
 
+ let myName = ['Prem', 'Rahul', 'Suraj', 'Girish', 'Arun', 'Banyan', 'Crown'];
+myName.splice(2, 3 , 'Avani');
+console.table(myName);
+
 // splice() - Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
 // const fruits = ['apple', 'banana', 'mango'];
 // fruits.splice(2, 0, 'orange'); // Inserts 'orange' at index 2
@@ -55,6 +59,6 @@
 
 
 //reduce() - Executes a reducer function on each element of the array, resulting in a single output value.
-const numbers = [10, 2, 30, 4];
-const sum = numbers.reduce((prem, currentValue) => prem + currentValue, 0); // 10
-console.table(sum);
+// const numbers = [10, 2, 30, 4];
+// const sum = numbers.reduce((prem, currentValue) => prem + currentValue, 0); // 10
+// console.table(sum);
